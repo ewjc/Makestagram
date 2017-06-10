@@ -77,9 +77,9 @@
 		092694091EEB3B3A003E7A8A /* Makestagram */ = {
 			isa = PBXGroup;
 			children = (
+				0926940A1EEB3B3A003E7A8A /* AppDelegate.swift */,
 				092694341EEC9674003E7A8A /* Extensions */,
 				092694311EEC7891003E7A8A /* Constants */,
-				0926940A1EEB3B3A003E7A8A /* AppDelegate.swift */,
 				092694201EEB3CFB003E7A8A /* Helpers */,
 				0926942A1EEB3F8E003E7A8A /* Supporting */,
 				092694291EEB3F89003E7A8A /* Services */,
