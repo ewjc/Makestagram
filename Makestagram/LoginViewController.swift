@@ -69,7 +69,7 @@ extension LoginViewController: FUIAuthDelegate {
                 // handle existing user
                 User.setCurrent(user)
                 
-                let initialViewController = UIStoryboard.initialViewController(for: .main)
+                let initialViewController = UIStoryboard.initialViewController(for: .login)
                 self.view.window?.rootViewController = initialViewController
                 self.view.window?.makeKeyAndVisible()
                 
