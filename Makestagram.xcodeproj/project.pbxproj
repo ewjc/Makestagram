@@ -21,6 +21,7 @@
 		092694361EEC9685003E7A8A /* Storyboard+Utilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = 092694351EEC9685003E7A8A /* Storyboard+Utilities.swift */; };
 		092694381EEE17B7003E7A8A /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 092694371EEE17B7003E7A8A /* HomeViewController.swift */; };
 		0926943A1EEE17CD003E7A8A /* FindFriendsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 092694391EEE17CD003E7A8A /* FindFriendsViewController.swift */; };
+		0926945A1EEEECC9003E7A8A /* MainTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 092694591EEEECC9003E7A8A /* MainTabBarController.swift */; };
 		C171DAC7D9C036B563E24215 /* Pods_Makestagram.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6BC2A6447F88B1434AC8A699 /* Pods_Makestagram.framework */; };
 /* End PBXBuildFile section */
 
@@ -41,6 +42,7 @@
 		092694351EEC9685003E7A8A /* Storyboard+Utilities.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Storyboard+Utilities.swift"; sourceTree = "<group>"; };
 		092694371EEE17B7003E7A8A /* HomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		092694391EEE17CD003E7A8A /* FindFriendsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FindFriendsViewController.swift; sourceTree = "<group>"; };
+		092694591EEEECC9003E7A8A /* MainTabBarController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainTabBarController.swift; sourceTree = "<group>"; };
 		586D10C13AD93968287B63BD /* Pods-Makestagram.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Makestagram.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Makestagram/Pods-Makestagram.debug.xcconfig"; sourceTree = "<group>"; };
 		6BC2A6447F88B1434AC8A699 /* Pods_Makestagram.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Makestagram.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C86808548BCCCA8C9FC384FC /* Pods-Makestagram.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Makestagram.release.xcconfig"; path = "Pods/Target Support Files/Pods-Makestagram/Pods-Makestagram.release.xcconfig"; sourceTree = "<group>"; };
@@ -117,6 +119,7 @@
 				0926942D1EEB5A9C003E7A8A /* CreateUsernameViewController.swift */,
 				092694371EEE17B7003E7A8A /* HomeViewController.swift */,
 				092694391EEE17CD003E7A8A /* FindFriendsViewController.swift */,
+				092694591EEEECC9003E7A8A /* MainTabBarController.swift */,
 			);
 			name = Controller;
 			sourceTree = "<group>";
@@ -323,6 +326,7 @@
 			files = (
 				0926942C1EEB57BC003E7A8A /* User.swift in Sources */,
 				092694281EEB3F13003E7A8A /* LoginViewController.swift in Sources */,
+				0926945A1EEEECC9003E7A8A /* MainTabBarController.swift in Sources */,
 				092694301EEC54C5003E7A8A /* UserService.swift in Sources */,
 				092694381EEE17B7003E7A8A /* HomeViewController.swift in Sources */,
 				092694331EEC78AB003E7A8A /* Constants.swift in Sources */,
