@@ -22,6 +22,8 @@
 		092694381EEE17B7003E7A8A /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 092694371EEE17B7003E7A8A /* HomeViewController.swift */; };
 		0926943A1EEE17CD003E7A8A /* FindFriendsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 092694391EEE17CD003E7A8A /* FindFriendsViewController.swift */; };
 		0926945A1EEEECC9003E7A8A /* MainTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 092694591EEEECC9003E7A8A /* MainTabBarController.swift */; };
+		0926945C1EEEEEAF003E7A8A /* MGPhotoHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0926945B1EEEEEAF003E7A8A /* MGPhotoHelper.swift */; };
+		0926945E1EEF0B24003E7A8A /* StorageService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0926945D1EEF0B24003E7A8A /* StorageService.swift */; };
 		C171DAC7D9C036B563E24215 /* Pods_Makestagram.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6BC2A6447F88B1434AC8A699 /* Pods_Makestagram.framework */; };
 /* End PBXBuildFile section */
 
@@ -43,6 +45,8 @@
 		092694371EEE17B7003E7A8A /* HomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		092694391EEE17CD003E7A8A /* FindFriendsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FindFriendsViewController.swift; sourceTree = "<group>"; };
 		092694591EEEECC9003E7A8A /* MainTabBarController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainTabBarController.swift; sourceTree = "<group>"; };
+		0926945B1EEEEEAF003E7A8A /* MGPhotoHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MGPhotoHelper.swift; sourceTree = "<group>"; };
+		0926945D1EEF0B24003E7A8A /* StorageService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StorageService.swift; sourceTree = "<group>"; };
 		586D10C13AD93968287B63BD /* Pods-Makestagram.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Makestagram.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Makestagram/Pods-Makestagram.debug.xcconfig"; sourceTree = "<group>"; };
 		6BC2A6447F88B1434AC8A699 /* Pods_Makestagram.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Makestagram.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C86808548BCCCA8C9FC384FC /* Pods-Makestagram.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Makestagram.release.xcconfig"; path = "Pods/Target Support Files/Pods-Makestagram/Pods-Makestagram.release.xcconfig"; sourceTree = "<group>"; };
@@ -85,7 +89,6 @@
 				092694341EEC9674003E7A8A /* Extensions */,
 				092694311EEC7891003E7A8A /* Constants */,
 				092694201EEB3CFB003E7A8A /* Helpers */,
-				0926942A1EEB3F8E003E7A8A /* Supporting */,
 				092694291EEB3F89003E7A8A /* Services */,
 				0926941F1EEB3CB3003E7A8A /* Storyboards */,
 				0926941E1EEB3CA6003E7A8A /* Controller */,
@@ -137,6 +140,7 @@
 		092694201EEB3CFB003E7A8A /* Helpers */ = {
 			isa = PBXGroup;
 			children = (
+				0926945B1EEEEEAF003E7A8A /* MGPhotoHelper.swift */,
 			);
 			name = Helpers;
 			sourceTree = "<group>";
@@ -154,15 +158,9 @@
 			isa = PBXGroup;
 			children = (
 				0926942F1EEC54C5003E7A8A /* UserService.swift */,
+				0926945D1EEF0B24003E7A8A /* StorageService.swift */,
 			);
 			name = Services;
-			sourceTree = "<group>";
-		};
-		0926942A1EEB3F8E003E7A8A /* Supporting */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			name = Supporting;
 			sourceTree = "<group>";
 		};
 		092694311EEC7891003E7A8A /* Constants */ = {
@@ -325,10 +323,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				0926942C1EEB57BC003E7A8A /* User.swift in Sources */,
+				0926945E1EEF0B24003E7A8A /* StorageService.swift in Sources */,
 				092694281EEB3F13003E7A8A /* LoginViewController.swift in Sources */,
 				0926945A1EEEECC9003E7A8A /* MainTabBarController.swift in Sources */,
 				092694301EEC54C5003E7A8A /* UserService.swift in Sources */,
 				092694381EEE17B7003E7A8A /* HomeViewController.swift in Sources */,
+				0926945C1EEEEEAF003E7A8A /* MGPhotoHelper.swift in Sources */,
 				092694331EEC78AB003E7A8A /* Constants.swift in Sources */,
 				0926943A1EEE17CD003E7A8A /* FindFriendsViewController.swift in Sources */,
 				092694361EEC9685003E7A8A /* Storyboard+Utilities.swift in Sources */,
