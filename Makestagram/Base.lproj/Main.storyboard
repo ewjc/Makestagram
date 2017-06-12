@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="12121" systemVersion="16F73" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="12121" systemVersion="16F73" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="mZ7-rE-4XJ">
     <device id="retina4_7" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
@@ -10,21 +10,91 @@
     </dependencies>
     <scenes>
         <!--View Controller-->
-        <scene sceneID="tne-QT-ifu">
+        <scene sceneID="Frh-Xi-pLx">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="Makestagram" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="Asq-ab-Y1i" sceneMemberID="viewController">
                     <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
-                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                        <viewControllerLayoutGuide type="top" id="wMw-Ca-nXL"/>
+                        <viewControllerLayoutGuide type="bottom" id="djj-hM-PnA"/>
                     </layoutGuides>
-                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                    <view key="view" contentMode="scaleToFill" id="14r-Qs-2bJ">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
+                    <tabBarItem key="tabBarItem" title="" image="tab_plus_black" id="KI3-VC-kkX">
+                        <inset key="imageInsets" minX="0.0" minY="7" maxX="0.0" maxY="-7"/>
+                    </tabBarItem>
                 </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Nhp-pa-MqM" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="-7" y="212"/>
+        </scene>
+        <!--Find Friends View Controller-->
+        <scene sceneID="pmp-4z-xi5">
+            <objects>
+                <viewController id="X05-f0-NzQ" customClass="FindFriendsViewController" customModule="Makestagram" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="BCo-bj-hKO"/>
+                        <viewControllerLayoutGuide type="bottom" id="1MN-t1-ulz"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="s19-5W-1iV">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="" image="tab_profile_black" id="ZMC-Kr-hBh">
+                        <inset key="imageInsets" minX="0.0" minY="7" maxX="0.0" maxY="-7"/>
+                    </tabBarItem>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="9gk-3z-ulQ" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-7" y="904"/>
+        </scene>
+        <!--Home View Controller-->
+        <scene sceneID="a95-cz-sG5">
+            <objects>
+                <viewController id="tAW-Mz-wZk" customClass="HomeViewController" customModule="Makestagram" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="7mc-dV-FYE"/>
+                        <viewControllerLayoutGuide type="bottom" id="308-Wz-R0E"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="gz9-Ey-WUY">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="" image="tab_home_black" id="j7X-se-ry8">
+                        <inset key="imageInsets" minX="0.0" minY="7" maxX="0.0" maxY="-7"/>
+                    </tabBarItem>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Jec-iD-vwe" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-7" y="-455"/>
+        </scene>
+        <!--Tab Bar Controller-->
+        <scene sceneID="1dV-OW-cXH">
+            <objects>
+                <tabBarController id="mZ7-rE-4XJ" sceneMemberID="viewController">
+                    <tabBar key="tabBar" contentMode="scaleToFill" id="E2B-c3-AEg">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="49"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                    </tabBar>
+                    <connections>
+                        <segue destination="tAW-Mz-wZk" kind="relationship" relationship="viewControllers" id="oKW-cL-shM"/>
+                        <segue destination="Asq-ab-Y1i" kind="relationship" relationship="viewControllers" id="VgY-8D-qq3"/>
+                        <segue destination="X05-f0-NzQ" kind="relationship" relationship="viewControllers" id="BXL-qX-shv"/>
+                    </connections>
+                </tabBarController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="a52-eS-uMw" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-972" y="212"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="tab_home_black" width="25" height="25"/>
+        <image name="tab_plus_black" width="25" height="25"/>
+        <image name="tab_profile_black" width="25" height="25"/>
+    </resources>
 </document>
