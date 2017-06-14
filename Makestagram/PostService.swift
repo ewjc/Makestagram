@@ -29,7 +29,7 @@ struct PostService {
         // 1
         let currentUser = User.current
         // 2
-        let post = Post(imageURL: urlString, imageHeight: Float(aspectHeight))
+        let post = Post(imageURL: urlString, imageHeight: aspectHeight)
         // 3
         let dict = post.dictValue
         
