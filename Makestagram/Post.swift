@@ -7,6 +7,7 @@
 //
 
 import Foundation
+import FirebaseDatabase.FIRDataSnapshot
 
 class Post {
     var key: String?
@@ -26,6 +27,19 @@ class Post {
         self.imageURL = imageURL
         self.imageHeight = imageHeight
         self.creationDate = Date()
+    }
+    
+    init?(snapshot: DataSnapshot) {
+        guard let dict = snapshot.value as? [String : Any],
+            let imageURL = dict["image_url"] as? String,
+            let imageHeight = dict["image_height"] as? Float,
+            let createdAgo = dict["created_at"] as? TimeInterval
+            else { return nil }
+        
+        self.key = snapshot.key
+        self.imageURL = imageURL
+        self.imageHeight = Float(imageHeight)
+        self.creationDate = Date(timeIntervalSince1970: createdAgo)
     }
     
 }

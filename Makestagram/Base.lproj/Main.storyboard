@@ -51,27 +51,6 @@
             </objects>
             <point key="canvasLocation" x="-7" y="904"/>
         </scene>
-        <!--Home View Controller-->
-        <scene sceneID="a95-cz-sG5">
-            <objects>
-                <viewController id="tAW-Mz-wZk" customClass="HomeViewController" customModule="Makestagram" customModuleProvider="target" sceneMemberID="viewController">
-                    <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="7mc-dV-FYE"/>
-                        <viewControllerLayoutGuide type="bottom" id="308-Wz-R0E"/>
-                    </layoutGuides>
-                    <view key="view" contentMode="scaleToFill" id="gz9-Ey-WUY">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                    </view>
-                    <tabBarItem key="tabBarItem" title="" image="tab_home_black" id="j7X-se-ry8">
-                        <inset key="imageInsets" minX="0.0" minY="7" maxX="0.0" maxY="-7"/>
-                    </tabBarItem>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="Jec-iD-vwe" userLabel="First Responder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="-7" y="-455"/>
-        </scene>
         <!--Main Tab Bar Controller-->
         <scene sceneID="1dV-OW-cXH">
             <objects>
@@ -82,7 +61,7 @@
                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                     </tabBar>
                     <connections>
-                        <segue destination="tAW-Mz-wZk" kind="relationship" relationship="viewControllers" id="oKW-cL-shM"/>
+                        <segue destination="SXj-4S-qn2" kind="relationship" relationship="viewControllers" id="oKW-cL-shM"/>
                         <segue destination="Asq-ab-Y1i" kind="relationship" relationship="viewControllers" id="VgY-8D-qq3"/>
                         <segue destination="X05-f0-NzQ" kind="relationship" relationship="viewControllers" id="BXL-qX-shv"/>
                     </connections>
@@ -91,9 +70,18 @@
             </objects>
             <point key="canvasLocation" x="-972" y="212"/>
         </scene>
+        <!--Home-->
+        <scene sceneID="4IW-TF-2EP">
+            <objects>
+                <viewControllerPlaceholder storyboardName="Home" id="SXj-4S-qn2" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="Item" id="Otm-Wn-YzE"/>
+                </viewControllerPlaceholder>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="W3x-Sy-VCK" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-7.2000000000000002" y="-455.62218890554726"/>
+        </scene>
     </scenes>
     <resources>
-        <image name="tab_home_black" width="25" height="25"/>
         <image name="tab_plus_black" width="25" height="25"/>
         <image name="tab_profile_black" width="25" height="25"/>
     </resources>
