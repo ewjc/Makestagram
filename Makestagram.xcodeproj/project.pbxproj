@@ -34,6 +34,8 @@
 		092694701EF0D766003E7A8A /* PostActionCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0926946F1EF0D766003E7A8A /* PostActionCell.swift */; };
 		092694721EF0DAAC003E7A8A /* LikeService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 092694711EF0DAAC003E7A8A /* LikeService.swift */; };
 		092694741EF10FEB003E7A8A /* FollowService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 092694731EF10FEB003E7A8A /* FollowService.swift */; };
+		092694761EF11248003E7A8A /* FindFriendsCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 092694751EF11248003E7A8A /* FindFriendsCell.swift */; };
+		092694791EF11288003E7A8A /* FindFriends.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 092694771EF11288003E7A8A /* FindFriends.storyboard */; };
 		C171DAC7D9C036B563E24215 /* Pods_Makestagram.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6BC2A6447F88B1434AC8A699 /* Pods_Makestagram.framework */; };
 /* End PBXBuildFile section */
 
@@ -67,6 +69,8 @@
 		0926946F1EF0D766003E7A8A /* PostActionCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PostActionCell.swift; sourceTree = "<group>"; };
 		092694711EF0DAAC003E7A8A /* LikeService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LikeService.swift; sourceTree = "<group>"; };
 		092694731EF10FEB003E7A8A /* FollowService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FollowService.swift; sourceTree = "<group>"; };
+		092694751EF11248003E7A8A /* FindFriendsCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FindFriendsCell.swift; sourceTree = "<group>"; };
+		092694781EF11288003E7A8A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/FindFriends.storyboard; sourceTree = "<group>"; };
 		586D10C13AD93968287B63BD /* Pods-Makestagram.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Makestagram.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Makestagram/Pods-Makestagram.debug.xcconfig"; sourceTree = "<group>"; };
 		6BC2A6447F88B1434AC8A699 /* Pods_Makestagram.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Makestagram.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C86808548BCCCA8C9FC384FC /* Pods-Makestagram.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Makestagram.release.xcconfig"; path = "Pods/Target Support Files/Pods-Makestagram/Pods-Makestagram.release.xcconfig"; sourceTree = "<group>"; };
@@ -135,6 +139,7 @@
 				0926946B1EF0D4DD003E7A8A /* PostImageCell.swift */,
 				0926946D1EF0D6A3003E7A8A /* PostHeaderCell.swift */,
 				0926946F1EF0D766003E7A8A /* PostActionCell.swift */,
+				092694751EF11248003E7A8A /* FindFriendsCell.swift */,
 			);
 			name = View;
 			sourceTree = "<group>";
@@ -156,6 +161,7 @@
 			children = (
 				092694131EEB3B3A003E7A8A /* LaunchScreen.storyboard */,
 				0926940E1EEB3B3A003E7A8A /* Main.storyboard */,
+				092694771EF11288003E7A8A /* FindFriends.storyboard */,
 				092694681EF05605003E7A8A /* Home.storyboard */,
 				092694251EEB3EF7003E7A8A /* Login.storyboard */,
 			);
@@ -292,6 +298,7 @@
 				092694151EEB3B3A003E7A8A /* LaunchScreen.storyboard in Resources */,
 				092694231EEB3E4B003E7A8A /* GoogleService-Info.plist in Resources */,
 				092694121EEB3B3A003E7A8A /* Assets.xcassets in Resources */,
+				092694791EF11288003E7A8A /* FindFriends.storyboard in Resources */,
 				0926946A1EF05605003E7A8A /* Home.storyboard in Resources */,
 				092694261EEB3EF7003E7A8A /* Login.storyboard in Resources */,
 				092694101EEB3B3A003E7A8A /* Main.storyboard in Resources */,
@@ -363,6 +370,7 @@
 				092694721EF0DAAC003E7A8A /* LikeService.swift in Sources */,
 				092694631EEF42D9003E7A8A /* Post.swift in Sources */,
 				0926946C1EF0D4DD003E7A8A /* PostImageCell.swift in Sources */,
+				092694761EF11248003E7A8A /* FindFriendsCell.swift in Sources */,
 				092694651EEFB679003E7A8A /* UIImage+Size.swift in Sources */,
 				092694381EEE17B7003E7A8A /* HomeViewController.swift in Sources */,
 				0926945C1EEEEEAF003E7A8A /* MGPhotoHelper.swift in Sources */,
@@ -402,6 +410,14 @@
 				092694691EF05605003E7A8A /* Base */,
 			);
 			name = Home.storyboard;
+			sourceTree = "<group>";
+		};
+		092694771EF11288003E7A8A /* FindFriends.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				092694781EF11288003E7A8A /* Base */,
+			);
+			name = FindFriends.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
